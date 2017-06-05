@@ -14,7 +14,7 @@ Alunos: Acácia dos Campos da Terra
 
 # Execução:
   ./'nome do programa' ou ./'nome do programa' < 'Arquivo de entrada'
-  *Nome do programa, se compilado com o Makefile, é 'viterbi'
+  * Nome do programa, se compilado com o Makefile, é 'viterbi'
 
 # Entrada:
   A entrada consiste de um inteiro de 0 a 100 e uma sequência de bits.

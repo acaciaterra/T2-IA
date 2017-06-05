@@ -17,6 +17,7 @@ Trabalho de Inteligêncial Artificial
 
 # Execução
   > ./'nome do programa'
+ 
   > ./'nome do programa' < 'Arquivo de entrada'
   * Nome do programa, se compilado com o Makefile, é 'viterbi'
 

@@ -16,7 +16,8 @@ Trabalho de Inteligêncial Artificial
   O programa pode ser compilado através do comando "make" no terminal ou pelo comando "g++ main.cpp -std=c++11 -Wall -O2".
 
 # Execução
-  ./'nome do programa' ou ./'nome do programa' < 'Arquivo de entrada'
+  > ./'nome do programa'
+  > ./'nome do programa' < 'Arquivo de entrada'
   * Nome do programa, se compilado com o Makefile, é 'viterbi'
 
 # Entrada

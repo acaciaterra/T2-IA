@@ -1,9 +1,12 @@
 # T2-IA
 Trabalho de Inteligêncial Artificial
 
-Alunos: Acácia dos Campos da Terra
-        João Pedro Winckler bernardi
+Alunos:
+    * Acácia dos Campos da Terra
+    * João Pedro Winckler bernardi
 
+Professor:
+    * José Carlos Bins Filho
 
 # Descrição:
   O trabalho consiste de um programa que dada um valor x e uma sequência de bits, codifica-se essa sequência, aplica-se ruído a codificação(alterando x% bits) e, por fim, realiza-se a decodificação da sequência codificada com ruído através do algoritmo de Viterbi.

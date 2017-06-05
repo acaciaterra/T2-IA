@@ -1,11 +1,11 @@
 # T2-IA
 Trabalho de Inteligêncial Artificial
 
-###### Alunos
+#### Alunos
   * Acácia dos Campos da Terra
   * João Pedro Winckler bernardi
 
-###### Professor
+#### Professor
   * José Carlos Bins Filho
 
 # Descrição

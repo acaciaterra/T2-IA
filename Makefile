@@ -1,2 +1,2 @@
 all:
-	g++ main.cpp -std=c++11 -Wall -O2
+	g++ main.cpp -o viterbi -std=c++11 -Wall -O2

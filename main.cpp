@@ -1,8 +1,16 @@
 /*
     Alunos: Acácia dos Campos da Terra e João Pedro Winckler Bernardi
+
     Professor: José Carlos Bins Filho
+
     Disciplina: Inteligência Artificial
-    Descrição: Blbalbala
+
+    Descrição: O trabalho consiste de um programa que dada um valor x e
+    uma sequência de bits, codifica-se essa sequência, aplica-se ruído a
+    codificação(alterando x% bits) e, por fim, realiza-se a
+    decodificação da sequência codificada com ruído através do algoritmo
+    de Viterbi.  O algoritmo de Viterbi foi implementado através de uma
+    matriz de estados e programação dinâmica, descrita a seguir:
 
     S_{i, j}
         i = indice do ultimo bit do meu par + 1
@@ -160,7 +168,7 @@ void decodifica() {
     rec(bitnoise.size(), i);
     for (int j = bitrec.size() - 1; j >= 2; j--) _bitrec[i].push_back(bitrec[j]);
   }
-  for (i = 0; i < 4; i++) 
+  for (i = 0; i < 4; i++)
     if (debbugError(_bitrec[menor]) > debbugError(_bitrec[i])) menor = i;
   for (i = 0; i < (int)_bitrec[menor].size(); i++)
     bitdec.push_back(_bitrec[menor][i]);
@@ -175,7 +183,5 @@ int main(void) {
   ruido();
   decodifica();
   debbug();
-  
-
   return 0;
 }
